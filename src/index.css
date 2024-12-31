@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+
+
+  
