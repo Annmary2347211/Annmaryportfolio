@@ -20,9 +20,9 @@ const ContactPage = () => {
         e.preventDefault();
 
         // Access credentials from environment variables
-        const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-        const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-        const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+        const serviceId = process.env.EMAILJS_SERVICE_ID;
+        const templateId = process.env.EMAILJS_TEMPLATE_ID;
+        const publicKey = process.env.PUBLIC_KEY;
 
         // Send email using EmailJS
         emailjs
