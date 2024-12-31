@@ -22,7 +22,7 @@ const ContactPage = () => {
         // Access credentials from environment variables
         const serviceId = process.env.EMAILJS_SERVICE_ID;
         const templateId = process.env.EMAILJS_TEMPLATE_ID;
-        const publicKey = process.env.PUBLIC_KEY;
+        const publicKey = process.env.EMAILJS_PUBLIC_KEY;
 
         // Send email using EmailJS
         emailjs
